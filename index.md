@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <div class="icon">
+            <img src=" " alt="Weather Icon" id="wicon" height=128 width="128">
+        </div>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>K</span>
+        </div>
+        <div class="temperature-description">
+            Cold
+        </div>
+    </div>
+
+
+  <script src="javascript.js"></script>
+    <!-- <script src="skycons.j"></script> -->
+</body>
+</html>
